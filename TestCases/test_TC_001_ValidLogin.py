@@ -5,9 +5,9 @@ from Pages import LoginPage
 def test_ValidLogin():
     driver=InitiateDriver.start_Browser()
     login = LoginPage.Login(driver)
-    login.enterUserName("Shourya.ns+DEMerge@gmail.com")
+    login.enterUserName("Shourya.ns+SA@gmail.com")
     login.clickContinue()
-    login.enterPassword("Password@11")
+    login.enterPassword("Ytrewq@11")
     login.clickLoginButton()
 
 
